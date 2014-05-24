@@ -19,6 +19,10 @@
 		B00E799F192980240046F5B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B00E7987192980240046F5B8 /* UIKit.framework */; };
 		B00E79A7192980240046F5B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B00E79A5192980240046F5B8 /* InfoPlist.strings */; };
 		B00E79A9192980240046F5B8 /* HouseWorkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B00E79A8192980240046F5B8 /* HouseWorkTests.m */; };
+		B020B2C4192C5ADF0091685E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B020B2C3192C5ADF0091685E /* Main.storyboard */; };
+		B041C98B192EDBE70042FEA8 /* HouseWorkAddToDoItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B041C98A192EDBE70042FEA8 /* HouseWorkAddToDoItemViewController.m */; };
+		B041C98E192EDCEA0042FEA8 /* HouseWorkToDoListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B041C98D192EDCEA0042FEA8 /* HouseWorkToDoListTableViewController.m */; };
+		B041C991192EE7F30042FEA8 /* HouseWorkToDoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B041C990192EE7F30042FEA8 /* HouseWorkToDoItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,13 @@
 		B00E79A4192980240046F5B8 /* HouseWorkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HouseWorkTests-Info.plist"; sourceTree = "<group>"; };
 		B00E79A6192980240046F5B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B00E79A8192980240046F5B8 /* HouseWorkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HouseWorkTests.m; sourceTree = "<group>"; };
+		B020B2C3192C5ADF0091685E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B041C989192EDBE70042FEA8 /* HouseWorkAddToDoItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HouseWorkAddToDoItemViewController.h; sourceTree = "<group>"; };
+		B041C98A192EDBE70042FEA8 /* HouseWorkAddToDoItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HouseWorkAddToDoItemViewController.m; sourceTree = "<group>"; };
+		B041C98C192EDCEA0042FEA8 /* HouseWorkToDoListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HouseWorkToDoListTableViewController.h; sourceTree = "<group>"; };
+		B041C98D192EDCEA0042FEA8 /* HouseWorkToDoListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HouseWorkToDoListTableViewController.m; sourceTree = "<group>"; };
+		B041C98F192EE7F30042FEA8 /* HouseWorkToDoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HouseWorkToDoItem.h; sourceTree = "<group>"; };
+		B041C990192EE7F30042FEA8 /* HouseWorkToDoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HouseWorkToDoItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +120,13 @@
 			children = (
 				B00E7992192980240046F5B8 /* HouseWorkAppDelegate.h */,
 				B00E7993192980240046F5B8 /* HouseWorkAppDelegate.m */,
+				B020B2C3192C5ADF0091685E /* Main.storyboard */,
+				B041C98C192EDCEA0042FEA8 /* HouseWorkToDoListTableViewController.h */,
+				B041C98D192EDCEA0042FEA8 /* HouseWorkToDoListTableViewController.m */,
+				B041C98F192EE7F30042FEA8 /* HouseWorkToDoItem.h */,
+				B041C990192EE7F30042FEA8 /* HouseWorkToDoItem.m */,
+				B041C989192EDBE70042FEA8 /* HouseWorkAddToDoItemViewController.h */,
+				B041C98A192EDBE70042FEA8 /* HouseWorkAddToDoItemViewController.m */,
 				B00E7995192980240046F5B8 /* Images.xcassets */,
 				B00E798A192980240046F5B8 /* Supporting Files */,
 			);
@@ -220,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B020B2C4192C5ADF0091685E /* Main.storyboard in Resources */,
 				B00E798E192980240046F5B8 /* InfoPlist.strings in Resources */,
 				B00E7996192980240046F5B8 /* Images.xcassets in Resources */,
 			);
@@ -240,6 +259,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B041C991192EE7F30042FEA8 /* HouseWorkToDoItem.m in Sources */,
+				B041C98B192EDBE70042FEA8 /* HouseWorkAddToDoItemViewController.m in Sources */,
+				B041C98E192EDCEA0042FEA8 /* HouseWorkToDoListTableViewController.m in Sources */,
 				B00E7994192980240046F5B8 /* HouseWorkAppDelegate.m in Sources */,
 				B00E7990192980240046F5B8 /* main.m in Sources */,
 			);
@@ -438,6 +460,7 @@
 				B00E79AE192980240046F5B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B00E79AF192980240046F5B8 /* Build configuration list for PBXNativeTarget "HouseWorkTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +469,7 @@
 				B00E79B1192980240046F5B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
